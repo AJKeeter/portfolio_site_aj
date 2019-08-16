@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99f494c6-22ce-454b-8d1f-b081fc82e10c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="99f494c6-22ce-454b-8d1f-b081fc82e10c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +28,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,19 +84,6 @@
               <item name="portfolio_site_aj" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio_site_aj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio_site_aj" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio_site_aj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio_site_aj" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio_site_aj" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +232,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565896330642</updated>
       <workItem from="1565896331837" duration="980000" />
-      <workItem from="1565897443549" duration="2360000" />
+      <workItem from="1565897443549" duration="3285000" />
     </task>
     <task id="LOCAL-00001" summary="Migrates the schema to have a blogs table">
       <created>1565915549713</created>
@@ -284,7 +259,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3340000" />
+    <option name="totallyTimeSpent" value="4265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,13 +272,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1817" y="23" width="1623" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25300443" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25300443" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" weight="0.32981133" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49968374" visible="true" weight="0.32981133" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49968374" visible="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50031626" side_tool="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32981133" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32981133" />
@@ -393,7 +367,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
