@@ -1,4 +1,9 @@
 class PortfoliosController < ApplicationController
+
+  def angular
+    @angular_portfolio_items = Portfolio.angular
+  end
+
   def index
     @portfolio_items = Portfolio.all
   end
@@ -6,6 +11,8 @@ class PortfoliosController < ApplicationController
   def new
     @portfolio_item = Portfolio.new
   end
+
+
 
   def create
     @portfolio_item = Portfolio.new(params.require(:portfolio).permit(:title, :subtitle, :body))
