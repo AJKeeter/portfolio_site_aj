@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99f494c6-22ce-454b-8d1f-b081fc82e10c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/blogs/_blog.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/portfolios/_portfolio_item.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/_blog.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/_blog.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/blogs/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/portfolios/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/contact.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/contact.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,38 +34,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/portfolios/_portfolio_item.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="120">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/blogs/_blog.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/blogs/_blog.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/contact.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -80,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/blogs/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20190817181509_create_friendly_id_slugs.rb" />
@@ -127,10 +116,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/blogs/_blog.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portfolios/_portfolio_item.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portfolios/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/blogs/_blog.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/contact.html.erb" />
       </list>
     </option>
   </component>
@@ -191,6 +181,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_site_aj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_site_aj" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio_site_aj" type="b2602c69:ProjectViewProjectNode" />
@@ -352,7 +349,7 @@
       <workItem from="1566166645749" duration="313000" />
       <workItem from="1566166961662" duration="325000" />
       <workItem from="1566167360973" duration="247000" />
-      <workItem from="1566167610164" duration="14709000" />
+      <workItem from="1566167610164" duration="15623000" />
     </task>
     <task id="LOCAL-00001" summary="Migrates the schema to have a blogs table">
       <created>1565915549713</created>
@@ -379,7 +376,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41887000" />
+    <option name="totallyTimeSpent" value="42801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,13 +389,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1817" y="23" width="1623" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15812777" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15812777" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" weight="0.32981133" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49968374" visible="true" weight="0.32830188" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49968374" visible="true" weight="0.32830188" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50031626" side_tool="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32981133" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32981133" />
@@ -487,13 +483,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="blog scaffolding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portfolios/angular.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -796,20 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/blogs/_blog.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portfolios/_portfolio_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -821,6 +796,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/contact.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/blogs/_blog.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
