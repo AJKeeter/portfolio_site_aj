@@ -1,5 +1,5 @@
 class PortfoliosController < ApplicationController
-  before_action
+  before_action :set_portfolio_item, only: [:edit, :update, :show, :destroy]
   layout 'portfolio'
 
   def angular
@@ -30,11 +30,9 @@ class PortfoliosController < ApplicationController
   end
 
   def edit
-    @portfolio_item = Portfolio.find(params[:id])
   end
 
   def update
-    @portfolio_item = Portfolio.find(params[:id])
 
     respond_to do |format|
       if @portfolio_item.update(portfolio_params)
@@ -46,12 +44,9 @@ class PortfoliosController < ApplicationController
   end
 
   def show
-    @portfolio_item = Portfolio.find(params[:id])
   end
 
   def destroy
-    # performs the look up
-    @portfolio_item = Portfolio.find(params[:id])
     # destroy/delete the record
     @portfolio_item.destroy
     # Redirect
@@ -64,6 +59,10 @@ class PortfoliosController < ApplicationController
 
   def portfolio_params
     params.require(:portfolio).permit(:title, :subtitle, :body, technologies_attributes: [:name])
+  end
+
+  def set_portfolio_item
+    @portfolio_item = Portfolio.find(params[:id])
   end
 
 end
