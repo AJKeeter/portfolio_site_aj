@@ -1,5 +1,6 @@
 class PortfoliosController < ApplicationController
   before_action
+  layout 'portfolio'
 
   def angular
     @angular_portfolio_items = Portfolio.angular
