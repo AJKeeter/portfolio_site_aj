@@ -59,5 +59,5 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
-
 gem 'keeter_view_tool', '~> 0.1.0'
+gem 'petergate', '~> 1.6', '>= 1.6.3'
