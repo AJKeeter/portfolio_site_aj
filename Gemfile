@@ -59,3 +59,5 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
+
+gem 'keeter_view_tool', git: 'https://github.com/AJKeeter/keeter_view_tool'

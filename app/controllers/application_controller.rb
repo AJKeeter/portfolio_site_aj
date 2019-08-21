@@ -10,4 +10,5 @@ class ApplicationController < ActionController::Base
   def set_title
     @page_title = "My Portfolio Site | Alec Keeter's Website"
   end
+
 end
