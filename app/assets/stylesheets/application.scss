@@ -161,8 +161,19 @@ body {
   }
 }
 
+/* Custom Styles */
+
 .ghub {
   background-color: #24292e;
   color: #fff;
   border-color: #fff;
+}
+
+.card-body {
+  color: black;
+  text-align: left;
+}
+
+.auth-links a {
+  color: black;
 }
