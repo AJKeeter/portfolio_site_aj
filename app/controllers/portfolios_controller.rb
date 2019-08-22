@@ -1,6 +1,8 @@
 class PortfoliosController < ApplicationController
   before_action :set_portfolio_item, only: [:edit, :update, :show, :destroy]
   layout 'portfolio'
+  access all: [:show, :index, :angular], user: {except: [:destroy, :new, :create, :update, :edit]}, site_admin: :all
+
 
   def angular
     @angular_portfolio_items = Portfolio.angular
@@ -47,11 +49,12 @@ class PortfoliosController < ApplicationController
   end
 
   def destroy
-    # destroy/delete the record
+    # Destroy/delete the record
     @portfolio_item.destroy
+
     # Redirect
     respond_to do |format|
-      format.html { redirect_to portfolios_url, notice: 'Portfolio was deleted'}
+      format.html { redirect_to portfolios_url, notice: 'Record was removed.' }
     end
   end
 
