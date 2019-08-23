@@ -3,7 +3,9 @@
   <h2> <%= @blog.title %></h2>
 
   <%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %> |
-  <%= link_to 'Back to Blogs', blogs_path %>
+  <%= link_to 'Back to Blogs', blogs_path %> |
+  <%= link_to 'Delete', blog_path, method: :delete, data: { confirm: 'Are you sure?' } if logged_in?(:site_admin) %>
+
 
   <p>
     <%= @blog.body %>
