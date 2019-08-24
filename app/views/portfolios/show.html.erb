@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container portfolio-container">
   <div class="row">
     <div class="col-md-7">
-      <%= image_tag @portfolio_item.main_image %>
+      <%= image_tag @portfolio_item.main_image.to_s, class:"img-fluid" %>
     </div>
 
     <div class="col-md-5">
@@ -23,7 +23,6 @@
 
       <%= link_to 'Delete', portfolio_path, method: :delete, data: { confirm: 'Are you sure?' } if logged_in?(:site_admin) %> |
       <%= link_to 'Edit', edit_portfolio_path if logged_in?(:site_admin) %>
-
 
     </div>
   </div>
