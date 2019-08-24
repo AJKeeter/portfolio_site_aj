@@ -10,6 +10,11 @@ class Portfolio < ApplicationRecord
   def self.angular
     where(subtitle: 'Angular')
   end
+
+  def self.by_position
+    order("position ASC")
+  end
+
   # SCOPE Call :ruby_on_rails_portfolio_items within the controller, in the class method index to show only portfolios that deal with ruby
   scope :ruby_on_rails_portfolio_items, -> { where(subtitle: 'Ruby on Rails') }
 

@@ -9,7 +9,7 @@ class PortfoliosController < ApplicationController
   end
 
   def index
-    @portfolio_items = Portfolio.all
+    @portfolio_items = Portfolio.by_position
   end
 
   def new
