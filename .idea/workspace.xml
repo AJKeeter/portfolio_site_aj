@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99f494c6-22ce-454b-8d1f-b081fc82e10c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/blogs.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/jobs/comment_broadcast_job.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/comment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/comment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,16 +72,34 @@
         <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/jobs/comment_broadcast_job.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/channels/blogs.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="399">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -101,14 +121,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/shared/_portfolio_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_application_nav.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_portfolio_nav.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/html.sortable.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/portfolios.coffee" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_application_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/portfolios/edit.html.erb" />
@@ -149,9 +167,11 @@
         <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
         <option value="$PROJECT_DIR$/app/views/comments/_comment_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/app/views/blogs/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/channels/blogs.coffee" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/app/jobs/comment_broadcast_job.rb" />
       </list>
     </option>
   </component>
@@ -199,6 +219,12 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
               <item name="channels" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_site_aj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_site_aj" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio_site_aj" type="b2602c69:ProjectViewProjectNode" />
@@ -394,7 +420,7 @@
       <workItem from="1566680723489" duration="9786000" />
       <workItem from="1566760389637" duration="3715000" />
       <workItem from="1566765625819" duration="59000" />
-      <workItem from="1566765687557" duration="2558000" />
+      <workItem from="1566765687557" duration="3060000" />
     </task>
     <task id="LOCAL-00001" summary="Migrates the schema to have a blogs table">
       <created>1565915549713</created>
@@ -463,7 +489,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124089000" />
+    <option name="totallyTimeSpent" value="124591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,10 +505,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20431472" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20431472" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" weight="0.32981133" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49968374" visible="true" weight="0.32603773" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49968374" visible="true" weight="0.32603773" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50031626" side_tool="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32981133" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32981133" />
@@ -579,20 +605,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added fix for bug on show page" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_application_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/about.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portfolios/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -909,17 +921,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/channels/blogs.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="399">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/channels/blogs.coffee">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jobs/comment_broadcast_job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
