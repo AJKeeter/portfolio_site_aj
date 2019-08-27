@@ -212,3 +212,12 @@ body {
 .app-footer {
   color: white;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 10px;
+}
