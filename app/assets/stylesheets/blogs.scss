@@ -188,3 +188,13 @@ h6, .h6 {
   font-size: .8em;
   font-style: italic;
 }
+
+.schloop {
+  justify-content: right;
+  text-align: right;
+}
+
+.schloop > .doop {
+  justify-content: left;
+  text-align: left;
+}
