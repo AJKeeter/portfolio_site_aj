@@ -27,6 +27,15 @@ a:hover {
  * Base structure
  */
 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
 html,
 body {
   height: 100%;
@@ -220,4 +229,15 @@ body {
 
 .app-card-container > .card {
   padding: 10px;
+}
+
+.ghub {
+  background-color: #24292e;
+  color: #fff;
+  border-color: #fff;
+}
+
+.card-body {
+  color: black;
+  text-align: left;
 }
