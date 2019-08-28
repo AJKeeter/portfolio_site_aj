@@ -15,11 +15,11 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: portfolio_site_aj
   password: password
+  socket: /tmp/mysql.sock
 
 development:
   <<: *default
   database: portfolio_site_aj_development
-  socket: /tmp/mysql.sockgit
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
