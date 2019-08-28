@@ -51,6 +51,6 @@ production:
   <<: *default
   database: portfolio_site_aj_production
   username: portfolio_site_aj
-  password:
+  password: password
   database_url: mysql2://https://git.heroku.com/portfolio-site-aj.git
 
