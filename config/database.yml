@@ -53,3 +53,4 @@ production:
   username: portfolio_site_aj
   password:
   database_url: mysql2://portfolio_site_aj:@localhost/portfolio_site_aj_production
+  socket: cleardb-spherical-79423
