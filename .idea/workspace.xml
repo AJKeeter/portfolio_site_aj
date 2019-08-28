@@ -72,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="-9">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -451,7 +451,7 @@
       <workItem from="1566954228761" duration="109000" />
       <workItem from="1566954343249" duration="591000" />
       <workItem from="1566954943329" duration="496000" />
-      <workItem from="1566955594107" duration="2142000" />
+      <workItem from="1566955594107" duration="4379000" />
     </task>
     <task id="LOCAL-00001" summary="Migrates the schema to have a blogs table">
       <created>1565915549713</created>
@@ -544,11 +544,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566959947040</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adds socket">
+      <created>1566960728864</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1566960728864</updated>
+    </task>
+    <task id="LOCAL-00015" summary="works locally">
+      <created>1567029641078</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567029641078</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157938000" />
+    <option name="totallyTimeSpent" value="160175000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,9 +579,9 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21954314" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" weight="0.32981133" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49968374" visible="true" weight="0.32603773" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5006345" side_tool="true" weight="0.32981133" />
+      <window_info anchor="bottom" id="Database Changes" order="0" sideWeight="0.49936548" weight="0.32981133" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49936548" visible="true" weight="0.32603773" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5006345" side_tool="true" weight="0.32603773" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49936548" weight="0.32981133" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32981133" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
@@ -664,16 +678,11 @@
     <MESSAGE value="Adds database url to config.yml" />
     <MESSAGE value="adds configuration to production database yml settings" />
     <MESSAGE value="adds" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds" />
+    <MESSAGE value="adds socket" />
+    <MESSAGE value="works locally" />
+    <option name="LAST_COMMIT_MESSAGE" value="works locally" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/topics/_topic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -981,20 +990,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="-9">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/devise-4.6.2/lib/devise/secret_key_finder.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
