@@ -51,5 +51,5 @@ production:
   <<: *default
   database: portfolio_site_aj_production
   username: portfolio_site_aj
-  password: <%= ENV['PORTFOLIO_SITE_AJ_DATABASE_PASSWORD'] %>
-  database_url: <%= ENV['portfolio_site_aj_production'] %>
+  password:
+  database_url: mysql2://portfolio_site_aj:@localhost/portfolio_site_aj_production
