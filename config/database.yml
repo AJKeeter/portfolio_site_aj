@@ -52,5 +52,5 @@ production:
   database: portfolio_site_aj_production
   username: portfolio_site_aj
   password:
-  database_url: mysql2://portfolio_site_aj:@localhost/portfolio_site_aj_production
+  database_url: mysql://be9c17cb214926:4930a14f@us-cdbr-iron-east-02.cleardb.net/heroku_b2007db1aa23988?reconnect=true
 
