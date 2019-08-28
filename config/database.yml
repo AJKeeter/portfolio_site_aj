@@ -52,4 +52,4 @@ production:
   database: portfolio_site_aj_production
   username: portfolio_site_aj
   password: <%= ENV['PORTFOLIO_SITE_AJ_DATABASE_PASSWORD'] %>
-  url: <%= ENV['portfolio_site_aj_production'] %>
+  database_url: <%= ENV['portfolio_site_aj_production'] %>
