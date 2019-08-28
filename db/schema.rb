@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(version: 2019_08_25_204032) do
 
   create_table "comments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.text "content"
-    t.bigint "user_id"
-    t.bigint "blog_id"
+    t.integer "user_id"
+    t.integer "blog_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["blog_id"], name: "index_comments_on_blog_id"
@@ -92,6 +92,4 @@ ActiveRecord::Schema.define(version: 2019_08_25_204032) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  add_foreign_key "comments", "blogs"
-  add_foreign_key "comments", "users"
 end
