@@ -14,12 +14,12 @@ default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: portfolio_site_aj
-  password: password
-#  socket: /tmp/mysql.sock
+  password: Marines11!
 
 development:
   <<: *default
   database: portfolio_site_aj_development
+  socket: /tmp/mysql.sock
 
 
 # Warning: The database defined as "test" will be erased and
@@ -51,6 +51,6 @@ test:
 production:
   <<: *default
   database: portfolio_site_aj_production
-  username: portfolio_site_aj
-  password:
+  username: be9c17cb214926
+  password: 4930a14f
 
