@@ -9,6 +9,5 @@ class CreateTechnologies < ActiveRecord::Migration[5.2]
       t.timestamps
     end
 
-    change_column :blogs, :topic_id, :integer
   end
 end
