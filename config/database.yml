@@ -14,9 +14,8 @@ default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: portfolio_site_aj
-  password: password
+  password: Marines11!
   socket: /tmp/mysql.sock
-
 
 development:
   <<: *default
@@ -51,6 +50,7 @@ test:
 #
 production:
   <<: *default
-  url:      <%= ENV['CLEARDB_DATABASE_URL']
-
+  database: portfolio_site_aj_production
+  username: be9c17cb214926
+  password: 4930a14f
 
