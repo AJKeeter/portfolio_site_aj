@@ -9,7 +9,7 @@
 
       <hr>
 
-      <em><%= @portfolio_item.subtitle %></em>
+      <em><%= link_to 'Link to GitHub', @portfolio_item.github_link, target: "_blank" %></em>
 
       <p><%= @portfolio_item.body %></p>
 
