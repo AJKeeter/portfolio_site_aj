@@ -19,13 +19,19 @@
 
       <div class="form-group">
         <label class="btn btn-secondary ghub">
-          Upload a main image file: <%= form.file_field :main_image, style: 'display:none;' %>
+          Upload a main image file <%= form.file_field :main_image, style: 'display:none;' %>
         </label>
       </div>
 
       <div class="form-group">
         <label class="btn btn-secondary ghub">
-          Upload a thumb image file: <%= form.file_field :thumb_image, style: 'display:none;' %>
+          Upload a data model file <%= form.file_field :data_model_image, style: 'display:none;' %>
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label class="btn btn-secondary ghub">
+          Upload a thumb image file <%= form.file_field :thumb_image, style: 'display:none;' %>
         </label>
       </div>
     </div>
@@ -35,6 +41,13 @@
       <div class="form-group">
         <%= form.label :body %>
         <%= form.text_area :body, class: 'form-control', rows: 13 %>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="form-group">
+        <%= form.label :critical_gems %>
+        <%= form.text_area :critical_gems, class: 'form-control' %>
       </div>
     </div>
   </div>
@@ -56,4 +69,5 @@
       <%= form.submit 'Submit', class: 'btn btn-secondary btn-block' %>
     </div>
   </div>
+
 <% end %>
