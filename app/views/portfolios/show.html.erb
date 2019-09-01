@@ -28,7 +28,7 @@
 
       <br>
 
-      <%= link_to 'Delete', portfolio_path, method: :delete, data: { confirm: 'Are you sure?' } if logged_in?(:site_admin) %> |
+      <%= link_to 'Delete', portfolio_path, method: :delete, data: { confirm: 'Are you sure?' } if logged_in?(:site_admin) %>
       <%= link_to 'Edit', edit_portfolio_path if logged_in?(:site_admin) %>
 
     </div>
@@ -38,7 +38,7 @@
     <div class="col-md-12">
       <br>
 
-      <%= image_tag src="/data_models/tumbler-data-model.jpg" %>
+      <%#= image_tag src="/data_models/tumbler-data-model.jpg" %>
     </div>
   </div>
 </div>
