@@ -100,7 +100,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/portfolios/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
+            <state relative-caret-position="760">
               <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
             </state>
           </provider>
@@ -497,7 +497,7 @@
       <workItem from="1566954943329" duration="496000" />
       <workItem from="1566955594107" duration="7699000" />
       <workItem from="1567121909439" duration="5535000" />
-      <workItem from="1567192113427" duration="26550000" />
+      <workItem from="1567192113427" duration="28907000" />
     </task>
     <task id="LOCAL-00001" summary="Migrates the schema to have a blogs table">
       <created>1565915549713</created>
@@ -734,7 +734,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199033000" />
+    <option name="totallyTimeSpent" value="201390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,7 +747,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1762" y="23" width="1678" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13875306" />
@@ -870,9 +869,6 @@
     <SUITE FILE_PATH="coverage/portfolio_site_aj@Development__portfolio_site_aj.rcov" NAME="Development: portfolio_site_aj Coverage Results" MODIFIED="1567375900045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="portfolio_site_aj" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.byebug_history">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1145,9 +1141,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/data_models/project-manager-data-model.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portfolios/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
+        <state relative-caret-position="760">
           <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
         </state>
       </provider>
